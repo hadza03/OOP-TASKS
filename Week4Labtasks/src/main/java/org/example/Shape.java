@@ -1,0 +1,18 @@
+package org.example;
+
+public class Shape {
+    protected String color;
+    protected FillType filled;
+    public Shape(String color,FillType filled){
+        this.color=color;
+        this.filled=filled;
+    }
+    public void displayInfo(){
+        System.out.println("Color: "+color+", Filled"+filled);
+    }
+    public double getArea(){
+        return 0.0;
+    }
+
+
+}
